@@ -68,8 +68,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PrimeFactorTest.should_return_non_empty_list_for_input_18">
-    <configuration name="PrimeFactorShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PrimeFactorTest.should_return_empty_list_for_input_3">
+    <configuration name="PrimeFactorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -82,7 +82,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;PrimeFactorShould&quot;" />
+            <option value="&quot;PrimeFactorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PrimeFactorTest.should_return_empty_list_for_input_3" />
+        <item itemvalue="Gradle.PrimeFactorTest" />
         <item itemvalue="Gradle.PrimeFactorTest.should_return_non_empty_list_for_input_18" />
         <item itemvalue="Gradle.PrimeFactorTest.should_return_non_empty_list_for_input_4" />
-        <item itemvalue="Gradle.PrimeFactorTest.should_return_empty_list_for_input_3" />
         <item itemvalue="Gradle.PrimeFactorTest.should_return_empty_list_for_input_1" />
-        <item itemvalue="Gradle.PrimeFactorShould" />
       </list>
     </recent_temporary>
   </component>
