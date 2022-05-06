@@ -12,19 +12,19 @@ public class PrimeFactorKata {
   private List<Integer> generatePrimeFactors(int input) {
     List<Integer> primeFactors = new ArrayList<>();
 
-    int num = input;
-    for (int idx = 2; idx <= num; idx += 1) {
-      num = calculatePrimeFactor(primeFactors, num, idx);
+    int reminder = input;
+    for (int divisor = 2; divisor <= reminder; divisor += 1) {
+      reminder = calculatePrimeFactor(primeFactors, reminder, divisor);
     }
     return primeFactors;
   }
 
-  private int calculatePrimeFactor(List<Integer> primeFactors, int num, int idx) {
-    while (num % idx == 0) {
-      primeFactors.add(idx);
-      num = num / idx;
+  private int calculatePrimeFactor(List<Integer> primeFactors, int reminder, int divisor) {
+    while (reminder % divisor == 0) {
+      primeFactors.add(divisor);
+      reminder = reminder / divisor;
     }
-    return num;
+    return reminder;
   }
 
   public void validateInput(int input) {
